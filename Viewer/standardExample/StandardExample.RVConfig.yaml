@@ -1,0 +1,24 @@
+autoReplay: false
+autoReplayTimerInSek: 2.0
+farbenFlow:
+- [0, 0, 155]
+- [0, 255, 255]
+- [0, 125, 0]
+- [255, 255, 0]
+- [155, 0, 0]
+farbenPressure:
+- [0, 0, 155]
+- [0, 255, 255]
+- [0, 125, 0]
+- [255, 255, 0]
+- [155, 0, 0]
+minFlowAnzeige: 5
+myColorFontSize: 20
+rohrdicke: 100.0
+rohrfaktor: 0.30000000000000004
+standardTimeIntervall: 30.0
+switchXDirection: 1.0
+switchYDirection: -1.0
+symbolSize: 15
+textdicke: 100
+wiedergabeSpeedVar: 1.0

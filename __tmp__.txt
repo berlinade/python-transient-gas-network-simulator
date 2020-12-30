@@ -1,0 +1,44 @@
+'''
+    defines a Timer class for measuring program running times.
+'''
+
+__author__ = ('Tom Streubel', 'Christian Strohm') # alphabetical order of surnames
+__credits__ = ('Andreas Griewank', 'Richard Hasenfelder', 
+               'Oliver Kunst', 'Lutz Lehmann', 
+               'Manuel Radons', 'Philpp Trunschke') # alphabetical order of surnames
+
+
+'''
+    imports
+    =======
+'''
+
+
+===========================================================================================
+===========================================================================================
+===========================================================================================
+
+
+# Makefile script for compiling cycADa 
+#
+# __author__ = ('Tom Streubel', 'Christian Strohm') # alphabetical order of surnames
+# __credits__ = ('Andreas Griewank', 'Richard Hasenfelder', 
+#                'Oliver Kunst', 'Lutz Lehmann', 
+#                'Manuel Radons', 'Philpp Trunschke') # alphabetical order of surnames
+
+
+===========================================================================================
+===========================================================================================
+===========================================================================================
+
+
+/*
+ * part of the 1st hearth-piece of cycADa: the header for its tape structure 
+ * part of the 1st hearth-piece of cycADa: the implementation of its tape structure 
+ *
+ * __author__ = ('Tom Streubel', 'Christian Strohm') # alphabetical order of surnames
+ * __credits__ = ('Andreas Griewank', 'Richard Hasenfelder', 
+ *                'Oliver Kunst', 'Lutz Lehmann', 
+ *                'Manuel Radons', 'Philpp Trunschke') # alphabetical order of surnames
+ */
+

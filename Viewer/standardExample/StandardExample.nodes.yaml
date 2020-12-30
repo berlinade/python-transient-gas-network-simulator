@@ -1,0 +1,4 @@
+- {id: source, showName: true, x: 0, y: 0}
+- {id: innode, showName: false, x: 1000, y: 0}
+- {id: sink_1, showName: true, x: 1500, y: -2000}
+- {id: sink_2, showName: true, x: 2000, y: 500}

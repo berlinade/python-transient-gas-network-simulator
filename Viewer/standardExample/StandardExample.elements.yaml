@@ -1,0 +1,60 @@
+- bypass-states: [1.0, 0.0, 0.0, 0.0] # optional
+  diameter: 400
+  id: compressor
+  length: 200
+  nach: sink_2
+  opening-states: [1.0, 1.0, 1.0, 1.0] # optional
+  p_target_upper_pL: [70, 70, 70, 70] # optional
+  p_target_upper_pR: [60, 70, 70, 60] # optional
+  showName: false
+  valuesFlow:
+  - [10, 5]
+  - [10, 15]
+  - [0, 0]
+  - [0, 0]
+  valuesPressure:
+  - [50, 40]
+  - [40, 35]
+  - [35, 40]
+  - [40, 40]
+  von: innode
+- bypass-states: [0.0, 0.0, 1.0, 1.0] # optional
+  diameter: 500
+  id: controlValve
+  length: 1000
+  nach: innode
+  opening-states: [0.0, 1.0, 1.0, 1.0] # optional
+  p_target_lower_pL: [30, 30, 25, 30] # optional
+  p_target_lower_pR: [25, 25, 20, 25] # optional
+  p_target_upper_pL: [70, 70, 70, 70] # optional
+  p_target_upper_pR: [60, 70, 70, 60] # optional
+  q_target_q: [20, 20, 20, 18]
+  showName: false
+  valuesFlow:
+  - [40, 30]
+  - [30, 20]
+  - [20, 10]
+  - [10, 0]
+  valuesPressure:
+  - [60, 50]
+  - [50, 40]
+  - [40, 35]
+  - [40, 40]
+  von: source
+- diameter: null
+  id: valve
+  length: 900
+  nach: sink_1
+  opening-states: [1.0, 0.0, 0.0, 0.0] # optional
+  showName: false
+  valuesFlow:
+  - [20, 15]
+  - [15, 10]
+  - [10, 5]
+  - [5, 0]
+  valuesPressure:
+  - [50, 30]
+  - [40, 30]
+  - [35, 30]
+  - [40, 40]
+  von: innode

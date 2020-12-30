@@ -1,0 +1,84 @@
+name_of_instance : 'g40'
+
+file_path_in : 'dumpedInput/'
+file_path_dump : 'dumpedFiles/'
+file_path_out : 'dumpedOutput/'
+
+csv_delimiter : ';'
+
+dump_files : False
+generate_results_meta : True
+
+root_methods:
+  - 'dampNewt'
+Hmin : 1.0e-11
+rel_tol : 1.0e-6
+
+
+deactivate_target_values_control-valve: # optional
+  target_upper_pR: use # use, deactivate
+  target_lower_pR: use
+  target_upper_pL: use
+  target_lower_pL: use
+  target_q: use
+  use_bypass_instead_of_active: False
+
+
+log_target_value_violations: # mandatory
+  suppress_log : False
+  pressure:
+    unit : bar
+    threshold : 0.5
+  flow:
+    unit : kg/s
+    threshold: 0.5
+
+#log_target_value_violations_control-valve: # optional
+#  suppress_log: False
+#  pressure:
+#    unit: bar
+#    threshold: 0.0
+#  flow:
+#    unit: kg/s
+#    threshold: 0.0
+
+
+profiles_all: # mandatory
+  mode : pc
+  smoothing_offset : 0.0
+  smoothing_offset_unit : s
+  horizon : [0.0, 0.0]
+  horizon_unit : s
+
+#profiles_node: # (optional) overrides profiles_all for elem of type 'node'
+#  mode : pc
+#  smoothing_offset : 0.0
+#  smoothing_offset_unit : s
+#  horizon : [0.0, 0.0]
+#  horizon_unit : s
+
+#profiles_id_of_a_node: # (optional) overrides profile_all and profiles_<type> for elem.name == "id_of_a_node"
+#  mode : pc
+#  smoothing_offset : 0.0
+#  smoothing_offset_unit : s
+#  horizon : [0.0, 0.0]
+#  horizon_unit : s
+
+
+internal_pipes: # mandatory
+  length : 10.0
+  length_unit : m
+  diameter : 0.8
+  diameter_unit : m
+
+internal_pipes_compressor: # (optional) overrides internal_pipes for elem of type 'common-valve'
+  length: 10.0
+  length_unit: m
+  diameter: 0.8
+  diameter_unit: m
+
+#internal_pipes_T2147527441: # (optional) overrides internal_pipes and internal_pipes_<type> for elem.name == "T2147527441"
+#  length : 11.0
+#  length_unit : m
+#  diameter : 0.88
+#  diameter_unit : m

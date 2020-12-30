@@ -1,0 +1,11 @@
+﻿1. From ResultViewer import ResultViewer
+2. From ResultViewer import viewResults(
+	pathTimes,
+	pathNodes,
+	pathElements,
+	pathUnits,
+	pathRVConfig=None
+	): 
+opens the ResultViewer with needed dictonaries
+  or with paths for needed *.yaml files
+  (*.RVConfig.yaml is optional)

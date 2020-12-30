@@ -1,0 +1,219 @@
+!;Condition;Object;Type;Parameter;Value;Unit;Source;Comments
+;;source_1;;P;80.0;[BAR];;boundary node
+;;source_1;;Q;0.0;[KG_PER_S];;boundary node
+;;source_2;;P;80.0;[BAR];;boundary node
+;;source_2;;Q;0.0;[KG_PER_S];;boundary node
+;;source_3;;P;80.0;[BAR];;boundary node
+;;source_3;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_1;;P;80.0;[BAR];;boundary node
+;;sink_1;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_2;;P;80.0;[BAR];;boundary node
+;;sink_2;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_3;;P;80.0;[BAR];;boundary node
+;;sink_3;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_4;;P;80.0;[BAR];;boundary node
+;;sink_4;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_5;;P;80.0;[BAR];;boundary node
+;;sink_5;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_6;;P;80.0;[BAR];;boundary node
+;;sink_6;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_7;;P;80.0;[BAR];;boundary node
+;;sink_7;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_8;;P;80.0;[BAR];;boundary node
+;;sink_8;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_9;;P;80.0;[BAR];;boundary node
+;;sink_9;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_10;;P;80.0;[BAR];;boundary node
+;;sink_10;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_11;;P;80.0;[BAR];;boundary node
+;;sink_11;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_12;;P;80.0;[BAR];;boundary node
+;;sink_12;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_13;;P;80.0;[BAR];;boundary node
+;;sink_13;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_14;;P;80.0;[BAR];;boundary node
+;;sink_14;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_15;;P;80.0;[BAR];;boundary node
+;;sink_15;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_16;;P;80.0;[BAR];;boundary node
+;;sink_16;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_17;;P;80.0;[BAR];;boundary node
+;;sink_17;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_18;;P;80.0;[BAR];;boundary node
+;;sink_18;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_19;;P;80.0;[BAR];;boundary node
+;;sink_19;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_20;;P;80.0;[BAR];;boundary node
+;;sink_20;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_21;;P;80.0;[BAR];;boundary node
+;;sink_21;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_22;;P;80.0;[BAR];;boundary node
+;;sink_22;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_23;;P;80.0;[BAR];;boundary node
+;;sink_23;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_24;;P;80.0;[BAR];;boundary node
+;;sink_24;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_26;;P;80.0;[BAR];;boundary node
+;;sink_26;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_27;;P;80.0;[BAR];;boundary node
+;;sink_27;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_28;;P;80.0;[BAR];;boundary node
+;;sink_28;;Q;0.0;[KG_PER_S];;boundary node
+;;sink_29;;P;80.0;[BAR];;boundary node
+;;sink_29;;Q;0.0;[KG_PER_S];;boundary node
+;;innode_1;;P;80.0;[BAR];;innode
+;;innode_2;;P;80.0;[BAR];;innode
+;;innode_3;;P;80.0;[BAR];;innode
+;;innode_4;;P;80.0;[BAR];;innode
+;;innode_5;;P;80.0;[BAR];;innode
+;;innode_7;;P;80.0;[BAR];;innode
+;;innode_8;;P;80.0;[BAR];;innode
+;;S00;;P;80.0;[BAR];;innode
+;;S01;;P;80.0;[BAR];;innode
+;;S03;;P;80.0;[BAR];;innode
+;;S11;;P;80.0;[BAR];;innode
+;;S12;;P;80.0;[BAR];;innode
+;;S13;;P;80.0;[BAR];;innode
+;;S20;;P;80.0;[BAR];;innode
+;;S21;;P;80.0;[BAR];;innode
+;;S22;;P;80.0;[BAR];;innode
+;;S23;;P;80.0;[BAR];;innode
+;;S00-pi-S01;;M;0.0;[KG_PER_S];;pipe
+;;S00-pi-S01;;ML;0.0;[KG_PER_S];;pipe
+;;S00-pi-S01;;MR;0.0;[KG_PER_S];;pipe
+;;S21-pi-S20;;M;0.0;[KG_PER_S];;pipe
+;;S21-pi-S20;;ML;0.0;[KG_PER_S];;pipe
+;;S21-pi-S20;;MR;0.0;[KG_PER_S];;pipe
+;;S20-cv-S00;;M;0.0;[KG_PER_S];;controlValve
+;;S01-vl-S03;;M;0.0;[KG_PER_S];;valve
+;;S01-vl-S11;;M;0.0;[KG_PER_S];;valve
+;;S03-vl-S13;;M;0.0;[KG_PER_S];;valve
+;;S11-vl-S12;;M;0.0;[KG_PER_S];;valve
+;;S12-vl-S13;;M;0.0;[KG_PER_S];;valve
+;;S23-vl-S22;;M;0.0;[KG_PER_S];;valve
+;;S22-vl-S21;;M;0.0;[KG_PER_S];;valve
+;;S11-cs-S21;;M;0.0;[KG_PER_S];;compressor
+;;S12-cs-S22;;M;0.0;[KG_PER_S];;compressor
+;;S13-cs-S23;;M;0.0;[KG_PER_S];;compressor
+;;pipe_6;;M;0.0;[KG_PER_S];;pipe
+;;pipe_6;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_6;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_25;;M;0.0;[KG_PER_S];;pipe
+;;pipe_25;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_25;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_3;;M;0.0;[KG_PER_S];;pipe
+;;pipe_3;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_3;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_12;;M;0.0;[KG_PER_S];;pipe
+;;pipe_12;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_12;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_26;;M;0.0;[KG_PER_S];;pipe
+;;pipe_26;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_26;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_1;;M;0.0;[KG_PER_S];;pipe
+;;pipe_1;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_1;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_2;;M;0.0;[KG_PER_S];;pipe
+;;pipe_2;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_2;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_4;;M;0.0;[KG_PER_S];;pipe
+;;pipe_4;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_4;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_5;;M;0.0;[KG_PER_S];;pipe
+;;pipe_5;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_5;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_7;;M;0.0;[KG_PER_S];;pipe
+;;pipe_7;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_7;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_8;;M;0.0;[KG_PER_S];;pipe
+;;pipe_8;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_8;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_9;;M;0.0;[KG_PER_S];;pipe
+;;pipe_9;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_9;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_10;;M;0.0;[KG_PER_S];;pipe
+;;pipe_10;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_10;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_11;;M;0.0;[KG_PER_S];;pipe
+;;pipe_11;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_11;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_13;;M;0.0;[KG_PER_S];;pipe
+;;pipe_13;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_13;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_14;;M;0.0;[KG_PER_S];;pipe
+;;pipe_14;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_14;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_15;;M;0.0;[KG_PER_S];;pipe
+;;pipe_15;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_15;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_16;;M;0.0;[KG_PER_S];;pipe
+;;pipe_16;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_16;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_17;;M;0.0;[KG_PER_S];;pipe
+;;pipe_17;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_17;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_18;;M;0.0;[KG_PER_S];;pipe
+;;pipe_18;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_18;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_19;;M;0.0;[KG_PER_S];;pipe
+;;pipe_19;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_19;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_20;;M;0.0;[KG_PER_S];;pipe
+;;pipe_20;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_20;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_21;;M;0.0;[KG_PER_S];;pipe
+;;pipe_21;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_21;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_22;;M;0.0;[KG_PER_S];;pipe
+;;pipe_22;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_22;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_23;;M;0.0;[KG_PER_S];;pipe
+;;pipe_23;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_23;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_24;;M;0.0;[KG_PER_S];;pipe
+;;pipe_24;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_24;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_27;;M;0.0;[KG_PER_S];;pipe
+;;pipe_27;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_27;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_28;;M;0.0;[KG_PER_S];;pipe
+;;pipe_28;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_28;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_29;;M;0.0;[KG_PER_S];;pipe
+;;pipe_29;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_29;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_30;;M;0.0;[KG_PER_S];;pipe
+;;pipe_30;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_30;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_31;;M;0.0;[KG_PER_S];;pipe
+;;pipe_31;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_31;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_32;;M;0.0;[KG_PER_S];;pipe
+;;pipe_32;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_32;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_33;;M;0.0;[KG_PER_S];;pipe
+;;pipe_33;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_33;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_34;;M;0.0;[KG_PER_S];;pipe
+;;pipe_34;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_34;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_35;;M;0.0;[KG_PER_S];;pipe
+;;pipe_35;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_35;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_36;;M;0.0;[KG_PER_S];;pipe
+;;pipe_36;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_36;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_37;;M;0.0;[KG_PER_S];;pipe
+;;pipe_37;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_37;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_38;;M;0.0;[KG_PER_S];;pipe
+;;pipe_38;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_38;;MR;0.0;[KG_PER_S];;pipe
+;;pipe_39;;M;0.0;[KG_PER_S];;pipe
+;;pipe_39;;ML;0.0;[KG_PER_S];;pipe
+;;pipe_39;;MR;0.0;[KG_PER_S];;pipe
+;;compressorStation_2;;M;0.0;[KG_PER_S];;compressorStation
+;;compressorStation_3;;M;0.0;[KG_PER_S];;compressorStation
+;;compressorStation_4;;M;0.0;[KG_PER_S];;compressorStation
+;;compressorStation_5;;M;0.0;[KG_PER_S];;compressorStation
+;;compressorStation_6;;M;0.0;[KG_PER_S];;compressorStation

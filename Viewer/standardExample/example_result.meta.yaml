@@ -1,0 +1,25 @@
+compressorStation:
+    Compressor:
+        bypass-state: [0.0, 0.0, 0.0, 0.0]
+        opening-states: [0.0, 0.0, 0.0, 0.0]
+        p_target_lower_pL: [30, 30, 25, 30]
+        p_target_lower_pR: [25, 25, 20, 25]
+        p_target_upper_pL: [70, 70, 70, 70]
+        p_target_upper_pR: [60, 70, 70, 60]
+        q_target_q: [5, 5, 5, 5]
+controlValve:
+    rohr_1:
+        bypass-state: [0.0, 0.0, 0.0, 0.0]
+        opening-states: [1.0, 1.0, 1.0, 1.0]
+        p_target_lower_pL: [30, 30, 25, 30]
+        p_target_lower_pR: [25, 25, 20, 25]
+        p_target_upper_pL: [70, 70, 70, 70]
+        p_target_upper_pR: [60, 70, 70, 60]
+        q_target_q: [20,20,20,18]
+name: generic
+rho_0 (norm density): 0.758973831715403
+timeTable: [0, 7, 14, 25]
+unit: {flow: kg_per_s, norm density: kg_per_m_cube, pressure: bar}
+valve:
+    rohr_2:
+        opening-states: [0.0, 0.0, 1.0, 1.0]

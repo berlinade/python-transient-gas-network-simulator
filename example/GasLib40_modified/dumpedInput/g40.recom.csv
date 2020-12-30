@@ -1,0 +1,116 @@
+!;Time;Condition;Object;Type;Parameter;Value;Unit;Source;Comments
+;;;_SYS;;LAMBDA;1.0;;;frictionNikuradze
+;;;_SYS;;ZET;0.0;;;compFactorPapay
+;;;_SYS;;DT;180.0;[S];;time step size
+;00:00;;S01-vl-S03;;ON;;;;valve
+;00:00;;S01-vl-S11;;ON;;;;valve
+;00:00;;S03-vl-S13;;ON;;;;valve
+;00:00;;S11-vl-S12;;ON;;;;valve
+;00:00;;S12-vl-S13;;ON;;;;valve
+;00:00;;S23-vl-S22;;ON;;;;valve
+;00:00;;S22-vl-S21;;ON;;;;valve
+;00:00;;S11-cs-S21;;BP;;;;compressorStation
+;00:00;;S11-cs-S21;;TARGET_Q;100.0;[KG_PER_S];;compressorStation | dummy value
+;00:00;;S11-cs-S21;;TARGET_LOWER_PL;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;S11-cs-S21;;TARGET_UPPER_PL;100.0;[BAR];;compressorStation | dummy value
+;00:00;;S11-cs-S21;;TARGET_UPPER_PR;100.0;[BAR];;compressorStation | dummy value
+;00:00;;S11-cs-S21;;TARGET_LOWER_PR;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;S12-cs-S22;;BP;;;;compressorStation
+;00:00;;S12-cs-S22;;TARGET_Q;100.0;[KG_PER_S];;compressorStation | dummy value
+;00:00;;S12-cs-S22;;TARGET_LOWER_PL;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;S12-cs-S22;;TARGET_UPPER_PL;100.0;[BAR];;compressorStation | dummy value
+;00:00;;S12-cs-S22;;TARGET_UPPER_PR;100.0;[BAR];;compressorStation | dummy value
+;00:00;;S12-cs-S22;;TARGET_LOWER_PR;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;S13-cs-S23;;BP;;;;compressorStation
+;00:00;;S13-cs-S23;;TARGET_Q;100.0;[KG_PER_S];;compressorStation | dummy value
+;00:00;;S13-cs-S23;;TARGET_LOWER_PL;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;S13-cs-S23;;TARGET_UPPER_PL;100.0;[BAR];;compressorStation | dummy value
+;00:00;;S13-cs-S23;;TARGET_UPPER_PR;100.0;[BAR];;compressorStation | dummy value
+;00:00;;S13-cs-S23;;TARGET_LOWER_PR;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;S20-cv-S00;;BP;;;;controlValve
+;00:00;;S20-cv-S00;;TARGET_Q;100.0;[KG_PER_S];;controlValve | dummy value
+;00:00;;S20-cv-S00;;TARGET_LOWER_PL;1.01325;[BAR];;controlValve | dummy value
+;00:00;;S20-cv-S00;;TARGET_UPPER_PL;100.0;[BAR];;controlValve | dummy value
+;00:00;;S20-cv-S00;;TARGET_UPPER_PR;100.0;[BAR];;controlValve | dummy value
+;00:00;;S20-cv-S00;;TARGET_LOWER_PR;1.01325;[BAR];;controlValve | dummy value
+;00:00;;compressorStation_2;;BP;;;;compressorStation
+;00:00;;compressorStation_2;;TARGET_Q;5000.0;[KG_PER_S];;compressorStation | dummy value
+;00:00;;compressorStation_2;;TARGET_LOWER_PL;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_2;;TARGET_UPPER_PL;500.0;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_2;;TARGET_UPPER_PR;500.0;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_2;;TARGET_LOWER_PR;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_3;;BP;;;;compressorStation
+;00:00;;compressorStation_3;;TARGET_Q;5000.0;[KG_PER_S];;compressorStation | dummy value
+;00:00;;compressorStation_3;;TARGET_LOWER_PL;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_3;;TARGET_UPPER_PL;500.0;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_3;;TARGET_UPPER_PR;500.0;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_3;;TARGET_LOWER_PR;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_4;;BP;;;;compressorStation
+;00:00;;compressorStation_4;;TARGET_Q;5000.0;[KG_PER_S];;compressorStation | dummy value
+;00:00;;compressorStation_4;;TARGET_LOWER_PL;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_4;;TARGET_UPPER_PL;500.0;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_4;;TARGET_UPPER_PR;500.0;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_4;;TARGET_LOWER_PR;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_5;;BP;;;;compressorStation
+;00:00;;compressorStation_5;;TARGET_Q;5000.0;[KG_PER_S];;compressorStation | dummy value
+;00:00;;compressorStation_5;;TARGET_LOWER_PL;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_5;;TARGET_UPPER_PL;500.0;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_5;;TARGET_UPPER_PR;500.0;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_5;;TARGET_LOWER_PR;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_6;;BP;;;;compressorStation
+;00:00;;compressorStation_6;;TARGET_Q;5000.0;[KG_PER_S];;compressorStation | dummy value
+;00:00;;compressorStation_6;;TARGET_LOWER_PL;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_6;;TARGET_UPPER_PL;500.0;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_6;;TARGET_UPPER_PR;500.0;[BAR];;compressorStation | dummy value
+;00:00;;compressorStation_6;;TARGET_LOWER_PR;1.01325;[BAR];;compressorStation | dummy value
+;00:00;;source_2;;Q;0.0;[KG_PER_S];;b node
+;00:00;;source_1;;Q;0.0;[KG_PER_S];;b node
+;00:00;;source_3;;Q;0.0;[KG_PER_S];;b node
+;00:00;;sink_1;;Q;0.0;[KG_PER_S];;b node
+;00:00;;sink_12;;Q;0.0;[KG_PER_S];;b node
+;00:30;;source_2;;Q;9.0;[KG_PER_S];;b node
+;00:30;;source_1;;Q;6.0;[KG_PER_S];;b node
+;00:30;;source_3;;Q;9.0;[KG_PER_S];;b node
+;00:30;;sink_1;;Q;-14.0;[KG_PER_S];;b node
+;00:30;;sink_12;;Q;-10.0;[KG_PER_S];;b node
+;01:00;;S20-cv-S00;;OFF;;;;controlValve
+;01:00;;S11-cs-S21;;CONF;FREE;;;compressorStation
+;01:00;;S11-cs-S21;;TARGET_Q;30.0;[KG_PER_S];;compressorStation | dummy value
+;01:00;;S11-cs-S21;;TARGET_LOWER_PL;60.0;[BAR];;compressorStation | dummy value
+;01:00;;S11-cs-S21;;TARGET_UPPER_PR;90.0;[BAR];;compressorStation | dummy value
+;01:00;;S12-cs-S22;;CONF;FREE;;;compressorStation
+;01:00;;S12-cs-S22;;TARGET_Q;30.0;[KG_PER_S];;compressorStation | dummy value
+;01:00;;S12-cs-S22;;TARGET_LOWER_PL;60.0;[BAR];;compressorStation | dummy value
+;01:00;;S12-cs-S22;;TARGET_UPPER_PR;90.0;[BAR];;compressorStation | dummy value
+;01:00;;S13-cs-S23;;CONF;FREE;;;compressorStation
+;01:00;;S13-cs-S23;;TARGET_Q;20.0;[KG_PER_S];;compressorStation | dummy value
+;01:00;;S13-cs-S23;;TARGET_LOWER_PL;60.0;[BAR];;compressorStation | dummy value
+;01:00;;S13-cs-S23;;TARGET_UPPER_PR;90.0;[BAR];;compressorStation | dummy value
+;03:00;;S11-cs-S21;;TARGET_UPPER_PR;82.0;[BAR];;compressorStation | dummy value
+;03:00;;S12-cs-S22;;TARGET_UPPER_PR;82.0;[BAR];;compressorStation | dummy value
+;03:00;;S13-cs-S23;;TARGET_UPPER_PR;82.0;[BAR];;compressorStation | dummy value
+;11:00;;S01-vl-S03;;OFF;;;;valve
+;11:00;;S01-vl-S11;;OFF;;;;valve
+;11:00;;S22-vl-S21;;OFF;;;;valve
+;11:00;;source_2;;Q;-10.0;[KG_PER_S];;b node
+;11:00;;source_1;;Q;8.0;[KG_PER_S];;b node
+;11:00;;source_3;;Q;16.0;[KG_PER_S];;b node
+;11:00;;sink_1;;Q;-10.0;[KG_PER_S];;b node
+;11:00;;sink_12;;Q;-4.0;[KG_PER_S];;b node
+;11:00;;S20-cv-S00;;CONF;FREE;;;controlValve
+;11:00;;S20-cv-S00;;TARGET_Q;9.0;[KG_PER_S];;controlValve | dummy value
+;11:00;;S20-cv-S00;;TARGET_LOWER_PL;70.0;[BAR];;controlValve | dummy value
+;11:00;;S20-cv-S00;;TARGET_UPPER_PL;90.0;[BAR];;controlValve | dummy value
+;11:00;;S20-cv-S00;;TARGET_UPPER_PR;70.0;[BAR];;controlValve | dummy value
+;11:00;;S20-cv-S00;;TARGET_LOWER_PR;65.0;[BAR];;controlValve | dummy value
+;21:00;;S13-cs-S23;;BP;;;;compressorStation | dummy value
+;21:00;;S11-cs-S21;;TARGET_Q;5.5;[KG_PER_S];;compressorStation | dummy value
+;21:00;;S12-cs-S22;;TARGET_Q;5.5;[KG_PER_S];;compressorStation | dummy value
+;21:00;;S23-vl-S22;;OFF;;;;valve
+;21:00;;S22-vl-S21;;ON;;;;valve
+;21:00;;S03-vl-S13;;OFF;;;;valve
+;21:00;;source_1;;Q;10.0;[KG_PER_S];;b node
+;21:00;;source_3;;Q;-10.0;[KG_PER_S];;b node
+;21:00;;sink_1;;Q;2.0;[KG_PER_S];;b node
+;21:00;;sink_12;;Q;1.0;[KG_PER_S];;b node
+;31:00;;_SYS;;ENDOFSIMULATION;;;;target (relative) time

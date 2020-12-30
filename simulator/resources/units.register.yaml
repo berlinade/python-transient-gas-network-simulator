@@ -1,0 +1,124 @@
+# Adding new unit conversions:
+#     1. add '<unit>_conversion_factors' dictionary
+#     2. add '<unit>_alias_dictionary' dictionary (even when empty)
+#     3. go to units.py and add new decorated (_conversion_decorator) conversion function
+
+
+time_to_s_conversion_factors:
+      s : 1.0
+      min : 60.0
+      h : 60.0**2.0
+
+time_to_s_alias_dictionary:
+      sec : s
+
+
+length_to_m_conversion_factors:
+      m : 1.0
+      km : 1.0e3
+      mm : 1.0e-3
+
+length_to_m_alias_dictionary:
+      meter : m
+      kilometer : km
+      millimeter : mm
+      metre : m
+      kilometre : km
+      millimetre : mm
+
+
+speed_to_m_per_s_conversion_factors:
+      m/s : 1.0
+
+speed_to_m_per_s_alias_dictionary: {}
+
+
+acceleration_to_m_per_s_2_conversion_factors:
+      m/s^2 : 1.0
+
+acceleration_to_m_per_s_2_alias_dictionary: {}
+
+
+flow_to_kg_per_s_conversion_factors:
+      kg/s : [1.0, False]
+      1000nm^3/h : [1000.0/3600.0, True] # 1000 units of something per 1 hour or 3600 seconds
+
+flow_to_kg_per_s_alias_dictionary:
+      tm^3/h : 1000nm^3/h
+      1000m^3/h : 1000nm^3/h
+      tm^3/hour : 1000nm^3/h
+      1000m^3/hour : 1000nm^3/h
+
+
+flow_to_thousand_Nm3_per_h_conversion_factors:
+      kg/s  : [3600.0/1000.0, True] # 1 hour or 3600 seconds per 1000 units of something
+      1000nm^3/h : [1.0, False]
+
+flow_to_thousand_Nm3_per_h_alias_dictionary:
+      tm^3/h : 1000nm^3/h
+      1000m^3/h : 1000nm^3/h
+      tm^3/hour : 1000nm^3/h
+      1000m^3/hour : 1000nm^3/h
+
+
+pressure_to_Pa_conversion_factors:
+      bar : [1.0e5, 0.0]
+      pa  : [1.0, 0.0]
+      barg: [1.0, 1.01325]
+
+pressure_to_Pa_alias_dictionary: {}
+
+
+pressure_to_Bar_conversion_factors:
+      bar : [1.0, 0.0]
+      pa  : [1.0e-5, 0.0]
+      barg: [1.0, 1.01325]
+
+pressure_to_Bar_alias_dictionary: {}
+
+
+pressure_to_BarG_conversion_factors:
+      bar : [1.0, -1.01325]
+      pa  : [1.0e-5, -101325.0]
+      barg: [1.0, 0.0]
+
+pressure_to_BarG_alias_dictionary: {}
+
+
+density_conversion_factors:
+      kg/m^3 : [1.0, 0.0]
+
+density_alias_dictionary: {}
+
+
+temperature_to_K_conversion_factors:
+      k : [1.0, 0.0]
+      c : [1.0, 273.15]
+
+temperature_to_K_alias_dictionary:
+      kelvin  : k
+      celsius : c
+
+
+molMass_to_kg_per_mol_conversion_factors:
+      kg/mol : 1.0
+      kg/kmol : 1.0e-3
+
+molMass_to_kg_per_mol_alias_dictionary: {}
+
+
+universal_gas_constant_to_kg_m2_per_s2_mol_Kelvin_conversion_factors:
+      kg_m^2/k_mol_s^2 : 1.0
+
+universal_gas_constant_to_kg_m2_per_s2_mol_Kelvin_alias_dictionary: {}
+
+
+specific_gas_constant_to_m2_per_s2_Kelvin_conversion_factors:
+      m^2/k_s^2 : 1.0
+
+specific_gas_constant_to_m2_per_s2_Kelvin_alias_dictionary:
+      j/k_kg : m^2/k_s^2
+      joule/k_kg : m^2/k_s^2
+      j/kelvin_kg : m^2/k_s^2
+      joule/kelvin_kg : m^2/k_s^2
+      m^2/kelvin_s^2 : m^2/k_s^2

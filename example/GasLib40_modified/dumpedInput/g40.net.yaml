@@ -1,0 +1,541 @@
+T: {unit: K, value: 297.37845869811207}
+Tc: {unit: K, value: 190.6}
+arcsPerType:
+    compressor:
+    -   from: {value: S11}
+        id: {value: S11-cs-S21}
+        to: {value: S21}
+    -   from: {value: S12}
+        id: {value: S12-cs-S22}
+        to: {value: S22}
+    -   from: {value: S13}
+        id: {value: S13-cs-S23}
+        to: {value: S23}
+    -   from: {value: sink_11}
+        id: {value: compressorStation_2}
+        to: {value: innode_1}
+    -   from: {value: sink_19}
+        id: {value: compressorStation_3}
+        to: {value: innode_2}
+    -   from: {value: source_3}
+        id: {value: compressorStation_4}
+        to: {value: innode_4}
+    -   from: {value: source_2}
+        id: {value: compressorStation_5}
+        to: {value: innode_7}
+    -   from: {value: sink_3}
+        id: {value: compressorStation_6}
+        to: {value: innode_8}
+    controlValve:
+    -   from: {value: S20}
+        id: {value: S20-cv-S00}
+        to: {value: S00}
+    pipe:
+    -   diameter: {unit: m, value: 1.0}
+        from: {value: S00}
+        id: {value: S00-pi-S01}
+        length: {unit: m, value: 100.0}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: S01}
+    -   diameter: {unit: m, value: 1.0}
+        from: {value: S21}
+        id: {value: S21-pi-S20}
+        length: {unit: m, value: 100.0}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: S20}
+    -   diameter: {unit: m, value: 1.0}
+        from: {value: source_1}
+        id: {value: pipe_1}
+        length: {unit: m, value: 1307.0852297}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_3}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: innode_1}
+        id: {value: pipe_2}
+        length: {unit: m, value: 7689.5507568}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_16}
+    -   diameter: {unit: m, value: 1.0}
+        from: {value: S03}
+        id: {value: pipe_3}
+        length: {unit: m, value: 2155.5661917}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_13}
+    -   diameter: {unit: m, value: 1.0}
+        from: {value: sink_13}
+        id: {value: pipe_4}
+        length: {unit: m, value: 699.05377872}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_14}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: sink_14}
+        id: {value: pipe_5}
+        length: {unit: m, value: 5821.9695531}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_10}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: S23}
+        id: {value: pipe_6}
+        length: {unit: m, value: 8669.2655668}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_26}
+    -   diameter: {unit: m, value: 0.6}
+        from: {value: sink_26}
+        id: {value: pipe_7}
+        length: {unit: m, value: 1657.3259985}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_9}
+    -   diameter: {unit: m, value: 0.6}
+        from: {value: sink_9}
+        id: {value: pipe_8}
+        length: {unit: m, value: 1002.7829812}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_18}
+    -   diameter: {unit: m, value: 0.6}
+        from: {value: sink_26}
+        id: {value: pipe_9}
+        length: {unit: m, value: 3521.8390867}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_4}
+    -   diameter: {unit: m, value: 0.6}
+        from: {value: sink_4}
+        id: {value: pipe_10}
+        length: {unit: m, value: 2032.2054259}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_20}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: sink_18}
+        id: {value: pipe_11}
+        length: {unit: m, value: 3286.2025259}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_6}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: S03}
+        id: {value: pipe_12}
+        length: {unit: m, value: 4748.2838523}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: innode_8}
+    -   diameter: {unit: m, value: 0.6}
+        from: {value: sink_6}
+        id: {value: pipe_13}
+        length: {unit: m, value: 380.5866770499997}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_7}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: sink_6}
+        id: {value: pipe_14}
+        length: {unit: m, value: 3903.0418114}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_22}
+    -   diameter: {unit: m, value: 0.4}
+        from: {value: sink_7}
+        id: {value: pipe_15}
+        length: {unit: m, value: 3869.824363}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_24}
+    -   diameter: {unit: m, value: 0.6}
+        from: {value: sink_22}
+        id: {value: pipe_16}
+        length: {unit: m, value: 1801.8496012}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_1}
+    -   diameter: {unit: m, value: 0.6}
+        from: {value: sink_24}
+        id: {value: pipe_17}
+        length: {unit: m, value: 306.54743994}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_21}
+    -   diameter: {unit: m, value: 0.4}
+        from: {value: sink_21}
+        id: {value: pipe_18}
+        length: {unit: m, value: 1205.8748344}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_12}
+    -   diameter: {unit: m, value: 0.4}
+        from: {value: sink_7}
+        id: {value: pipe_19}
+        length: {unit: m, value: 1404.1135378}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_5}
+    -   diameter: {unit: m, value: 0.6}
+        from: {value: sink_5}
+        id: {value: pipe_20}
+        length: {unit: m, value: 2063.698268800003}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_17}
+    -   diameter: {unit: m, value: 0.6}
+        from: {value: sink_17}
+        id: {value: pipe_21}
+        length: {unit: m, value: 1058.1294733}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_4}
+    -   diameter: {unit: m, value: 0.6}
+        from: {value: sink_17}
+        id: {value: pipe_22}
+        length: {unit: m, value: 1042.031178000001}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_8}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: sink_3}
+        id: {value: pipe_23}
+        length: {unit: m, value: 1237.3521636}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_23}
+    -   diameter: {unit: m, value: 0.6}
+        from: {value: sink_8}
+        id: {value: pipe_24}
+        length: {unit: m, value: 1930.1920196}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_20}
+    -   diameter: {unit: m, value: 0.6}
+        from: {value: S23}
+        id: {value: pipe_25}
+        length: {unit: m, value: 6603.5946309}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_20}
+    -   diameter: {unit: m, value: 1.0}
+        from: {value: S00}
+        id: {value: pipe_26}
+        length: {unit: m, value: 1896.412711099998}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_15}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: sink_15}
+        id: {value: pipe_27}
+        length: {unit: m, value: 3606.0098747}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_29}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: sink_29}
+        id: {value: pipe_28}
+        length: {unit: m, value: 2224.1532472}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_28}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: sink_29}
+        id: {value: pipe_29}
+        length: {unit: m, value: 3117.6191038}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_2}
+    -   diameter: {unit: m, value: 1.0}
+        from: {value: sink_2}
+        id: {value: pipe_30}
+        length: {unit: m, value: 1276.7034136}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_15}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: sink_29}
+        id: {value: pipe_31}
+        length: {unit: m, value: 3291.259815}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: innode_7}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: innode_4}
+        id: {value: pipe_32}
+        length: {unit: m, value: 4986.1483875}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_19}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: sink_19}
+        id: {value: pipe_33}
+        length: {unit: m, value: 349.45466552}
+        roughness: {unit: m, value: 1.2e-05}
+        to: {value: innode_3}
+    -   diameter: {unit: m, value: 1.0}
+        from: {value: innode_4}
+        id: {value: pipe_34}
+        length: {unit: m, value: 341.00825125}
+        roughness: {unit: m, value: 1.2e-05}
+        to: {value: innode_5}
+    -   diameter: {unit: m, value: 1.0}
+        from: {value: sink_27}
+        id: {value: pipe_35}
+        length: {unit: m, value: 3244.372045300002}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: innode_5}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: sink_27}
+        id: {value: pipe_36}
+        length: {unit: m, value: 2642.4816453}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_19}
+    -   diameter: {unit: m, value: 1.0}
+        from: {value: sink_10}
+        id: {value: pipe_37}
+        length: {unit: m, value: 1813.5972918}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: sink_11}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: sink_10}
+        id: {value: pipe_38}
+        length: {unit: m, value: 6505.17426789999994}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: innode_2}
+    -   diameter: {unit: m, value: 0.8}
+        from: {value: sink_10}
+        id: {value: pipe_39}
+        length: {unit: m, value: 6553.2127112}
+        roughness: {unit: m, value: 5.0e-05}
+        to: {value: innode_3}
+    resistor: []
+    valve:
+    -   from: {value: S01}
+        id: {value: S01-vl-S03}
+        to: {value: S03}
+    -   from: {value: S01}
+        id: {value: S01-vl-S11}
+        to: {value: S11}
+    -   from: {value: S03}
+        id: {value: S03-vl-S13}
+        to: {value: S13}
+    -   from: {value: S11}
+        id: {value: S11-vl-S12}
+        to: {value: S12}
+    -   from: {value: S12}
+        id: {value: S12-vl-S13}
+        to: {value: S13}
+    -   from: {value: S23}
+        id: {value: S23-vl-S22}
+        to: {value: S22}
+    -   from: {value: S22}
+        id: {value: S22-vl-S21}
+        to: {value: S21}
+    checkValve: []
+    shortPipe: []
+frictionModel: pkn
+model: LR
+molMass: {unit: kg_per_mol, value: 0.01604}
+name: GasLib40
+nodesPerType:
+    innode:
+    -   height: {unit: m, value: 0.0}
+        id: {value: S00}
+        x: {value: 1800.0}
+        y: {value: 4000.0}
+    -   height: {unit: m, value: 0.0}
+        id: {value: S01}
+        x: {value: 2000.0}
+        y: {value: 4000.0}
+    -   height: {unit: m, value: 0.0}
+        id: {value: S03}
+        x: {value: 2400.0}
+        y: {value: 4000.0}
+
+    -   height: {unit: m, value: 0.0}
+        id: {value: S11}
+        x: {value: 2000.0}
+        y: {value: 3700.0}
+    -   height: {unit: m, value: 0.0}
+        id: {value: S12}
+        x: {value: 2200.0}
+        y: {value: 3700.0}
+    -   height: {unit: m, value: 0.0}
+        id: {value: S13}
+        x: {value: 2400.0}
+        y: {value: 3700.0}
+
+    -   height: {unit: m, value: 0.0}
+        id: {value: S20}
+        x: {value: 1800.0}
+        y: {value: 3400.0}
+    -   height: {unit: m, value: 0.0}
+        id: {value: S21}
+        x: {value: 2000.0}
+        y: {value: 3400.0}
+    -   height: {unit: m, value: 0.0}
+        id: {value: S22}
+        x: {value: 2200.0}
+        y: {value: 3400.0}
+    -   height: {unit: m, value: 0.0}
+        id: {value: S23}
+        x: {value: 2400.0}
+        y: {value: 3400.0}
+
+    -   height: {unit: m, value: 0.0}
+        id: {value: innode_1}
+        x: {value: 4510.3}
+        y: {value: 4844.5}
+    -   height: {unit: m, value: 0.0}
+        id: {value: innode_2}
+        x: {value: 4743.3}
+        y: {value: 6656.6}
+    -   height: {unit: m, value: 0.0}
+        id: {value: innode_3}
+        x: {value: 4633.1}
+        y: {value: 6713.4}
+    -   height: {unit: m, value: 0.0}
+        id: {value: innode_4}
+        x: {value: 5394.5}
+        y: {value: 7785.8}
+    -   height: {unit: m, value: 0.0}
+        id: {value: innode_5}
+        x: {value: 5322.0}
+        y: {value: 7831.7}
+    -   height: {unit: m, value: 0.0}
+        id: {value: innode_7}
+        x: {value: 133.38}
+        y: {value: 5303.8}
+    -   height: {unit: m, value: 0.0}
+        id: {value: innode_8}
+        x: {value: 1815.5}
+        y: {value: 5378.1}
+    sink:
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_1}
+        x: {value: 848.52}
+        y: {value: 16.263}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_2}
+        x: {value: 1308.8}
+        y: {value: 4287.4}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_3}
+        x: {value: 1780.3}
+        y: {value: 5458.0}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_4}
+        x: {value: 2032.8}
+        y: {value: 2162.2}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_5}
+        x: {value: 2031.5}
+        y: {value: 1442.8}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_6}
+        x: {value: 1744.1}
+        y: {value: 1126.9}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_7}
+        x: {value: 1836.0}
+        y: {value: 1150.2}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_8}
+        x: {value: 2374.1}
+        y: {value: 2105.3}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_9}
+        x: {value: 1019.0}
+        y: {value: 1838.1}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_10}
+        x: {value: 4080.1}
+        y: {value: 5171.7}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_11}
+        x: {value: 4435.6}
+        y: {value: 4889.6}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_12}
+        x: {value: 2539.2}
+        y: {value: 20.875}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_13}
+        x: {value: 2630.7}
+        y: {value: 4426.5}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_14}
+        x: {value: 2789.0}
+        y: {value: 4499.2}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_15}
+        x: {value: 1603.0}
+        y: {value: 4409.0}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_16}
+        x: {value: 6304.1}
+        y: {value: 4154.1}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_17}
+        x: {value: 2173.6}
+        y: {value: 1938.9}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_18}
+        x: {value: 1067.9}
+        y: {value: 1592.7}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_19}
+        x: {value: 4716.9}
+        y: {value: 6739.3}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_20}
+        x: {value: 2315.2}
+        y: {value: 2584.4}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_21}
+        x: {value: 2444.6}
+        y: {value: 305.56}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_22}
+        x: {value: 1139.4}
+        y: {value: 360.63}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_23}
+        x: {value: 1815.8}
+        y: {value: 5766.7}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_24}
+        x: {value: 2415.7}
+        y: {value: 376.26}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_26}
+        x: {value: 1154.5}
+        y: {value: 2230.5}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_27}
+        x: {value: 4638.6}
+        y: {value: 7395.2}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_28}
+        x: {value: 744.33}
+        y: {value: 5472.0}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: sink_29}
+        x: {value: 867.37}
+        y: {value: 4930.6}
+    source:
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: source_1}
+        x: {value: 1542.8}
+        y: {value: 5682.2}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: source_2}
+        x: {value: 63.64}
+        y: {value: 5331.8}
+    -   behaviour: {value: qNode}
+        height: {unit: m, value: 0.0}
+        id: {value: source_3}
+        x: {value: 5451.7}
+        y: {value: 7845.4}
+pc: {unit: bar, value: 46.0}
+zModel: aga
+rho_0: {unit: kg_per_m_cube, value: 0.7850434782608696}
