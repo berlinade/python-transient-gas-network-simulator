@@ -9,6 +9,7 @@
 3. [First Use](#first)
 4. [On the Math](#maths)
 5. [License Info](#licens)
+6. [Branch Name Policyof Master](#hint)
 
 ## <a name="deps">Dependencies</a>
 
@@ -69,11 +70,13 @@ The nodes represent entries, exists (i.e. where gas is pushed into or taken from
 
 see LICENSE file
 
-## <a name="hint">Branch Name On GitHub</a>
+## <a name="hint">Branch Name Policy 'Master'-branch At GitHub And At Home</a>
 
-This "master"-branch on github is maintained as "github_master" 'at home' so for user 
-that do not directly work with clones from the github please use:
-
-        git push github github_master:master
-
-to push changes or 
+This "master"-branch on the _github repository_ is maintained as 
+"github_master" at the _home repository_. 
+So for users that does not directly work with clones from the _github repository_ 
+please specify exactly your push and pull destinations/origins. I.e. use
+* to push to _github repository_: ```git push github github_master:master```
+* to pull from _github repository_: ```git pull github github_master:master```
+* to push to _home repository_: ```git push origin github_master:github_master```
+* to pull from _home repository_: ```git push origin github_master:github_master```
