@@ -77,6 +77,6 @@ This "master"-branch on the _github repository_ is maintained as
 So for users that does not directly work with clones from the _github repository_ 
 please specify exactly your push and pull destinations/origins. I.e. use
 * to push to _github repository_: ```git push github github_master:master```
-* to pull from _github repository_: ```git pull github github_master:master```
+* to pull from _github repository_: ```git pull github master:github_master```
 * to push to _home repository_: ```git push origin github_master:github_master```
-* to pull from _home repository_: ```git push origin github_master:github_master```
+* to pull from _home repository_: ```git pull origin github_master:github_master```
