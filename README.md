@@ -68,3 +68,12 @@ The nodes represent entries, exists (i.e. where gas is pushed into or taken from
 ## <a name="licens">License Information</a>
 
 see LICENSE file
+
+## <a name="hint">Branch Name On GitHub</a>
+
+This "master"-branch on github is maintained as "github_master" 'at home' so for user 
+that do not directly work with clones from the github please use:
+
+        git push github github_master:master
+
+to push changes or 
